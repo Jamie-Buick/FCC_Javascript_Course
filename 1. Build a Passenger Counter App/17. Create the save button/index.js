@@ -8,4 +8,7 @@ function increment() {
 
 // 1. Create a function, save(), which logs out the count when it's called
 
-
+function save(){
+    let save = count
+    console.log(save)
+}
