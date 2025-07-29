@@ -5,7 +5,9 @@ let hasBlackJack = false
 let isAlive = true
 let message = ""
 let messageEl = document.getElementById("message-el")
-let sumEl = document.getElementById("sum-el")
+//let sumEl = document.getElementById("sum-el")
+
+let sumEl = document.querySelector("#sum-el")
 // 2. Store the cards paragraph in a variable called cardsEl
 let cardsEl = document.getElementById("cards-el")
 
