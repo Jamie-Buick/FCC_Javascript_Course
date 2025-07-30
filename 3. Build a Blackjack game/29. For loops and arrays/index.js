@@ -6,6 +6,10 @@ let messages = [
     "Great to hear"
 ]
 
+for (let i = 0; i < messages.length; i++) {
+    console.log(messages[i])
+}
+
 // DRY - Don't repeat yourself
 // console.log(messages[0])
 // console.log(messages[1])
