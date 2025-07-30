@@ -6,3 +6,14 @@ let orangeShelf = document.getElementById("orange-shelf")
 // and the oranges onto the orangeShelf. Use a for loop,
 // a conditional statement, and the textContent property.
 
+shelveStacker() 
+
+function shelveStacker() {
+    for (let i = 0; i < fruit.length; i++) {
+        if (fruit[i] === "🍎") {
+            appleShelf.textContent += fruit[i]
+        }else{
+            orangeShelf.textContent += fruit[i]
+        }
+    }
+}
