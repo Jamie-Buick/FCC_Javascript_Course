@@ -1,6 +1,10 @@
-let myLeads = ["www.awesomelead.com"]
+let myLeads = `["www.awesomelead.com"]`
 
-
+let arr = JSON.parse(myLeads)
+arr.push("hello ")
+console.log(arr)
+const str = JSON.stringify(arr)
+console.log(typeof str)
 
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
